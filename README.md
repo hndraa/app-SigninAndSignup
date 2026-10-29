@@ -63,6 +63,7 @@ This project demonstrates a basic authentication flow for learning purposes. Use
 ### Screenshots
 
 **Home Screen**
+
 ![image](https://github.com/user-attachments/assets/5cf402f8-643c-4a8b-80ee-3dfe8fa01379)
 
 **Login page display if password and email are empty**
@@ -162,7 +163,8 @@ App3/
 - Set the package name or namespace to `com.example.app3`.
 - Select Kotlin as the programming language.
 - Finish creating the project and wait for Gradle synchronization.
-   ![image](https://github.com/user-attachments/assets/59d65576-2f1a-415c-9032-1f9fd5884e0e)
+
+![image](https://github.com/user-attachments/assets/59d65576-2f1a-415c-9032-1f9fd5884e0e)
 
 **2. Add Kotlin source files**
 
@@ -197,7 +199,7 @@ Register the `login`, `register`, and `landing` activities inside the existing `
 Open App > manifests > AndroidManifest.xml > and then add this:
       
     ```  kotlin
-   <activity
+      <activity
                android:name=".landing"
                android:exported="false" />
            <activity
@@ -211,6 +213,7 @@ Open App > manifests > AndroidManifest.xml > and then add this:
                    <category android:name="android.intent.category.LAUNCHER" />
                </intent-filter>
            </activity>
+      ```
 
 **5. Check Gradle configuration**
 
